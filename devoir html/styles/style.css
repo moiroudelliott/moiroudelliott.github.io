@@ -1,0 +1,79 @@
+html {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: azure;
+	margin: 0;
+}
+
+body {
+	background: url('https://i.ibb.co/h29Z4hC/bande.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 500px;
+	margin: 0 0 20px 20px;
+	padding: 0;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 0 10px 0 100px;
+	padding: 20px 200px 20px 0;
+	color: darkblue;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 2;
+	margin: 20px 20px 0 50px;
+	color: darkslategrey;
+}
+
+p {
+	font-size: 20px;
+	margin: 0px 0 0 20px;
+	line-height: 2;
+	letter-spacing: 1px;
+	color: darkslategrey;
+}
+
+ul {
+	font-size: 20px;
+	margin: 0px 0 0 20px;
+	line-height: 2;
+	letter-spacing: 1px;
+	color: darkslategrey;
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 2;
+	margin: 0px 0 0 40px;
+	color: darkgray
+}
+
+.important:hover {
+	color: blue;
+}
+
+img {
+    border:1px solid #ccc;
+    padding:5px;
+}
+img.img-responsive {
+    max-width: 32%;
+    width:100%;
+    height:auto;
+}
+
+#deco {
+	position: absolute;
+	left: 920px;
+	top: 0px;
+	display: none;
+}
+
+@media screen and (max-width: 780px) { 
+    h1 {
+        font-size: 40px;
+    }
+}
